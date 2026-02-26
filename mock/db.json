@@ -111,6 +111,20 @@
         "diesel": 100,
         "petrol": 0
       }
+    },
+    {
+      "id": "hub-f21dfe7c-a243-43cb-9b1e-6f9e603acb37",
+      "name": "Test Hub",
+      "type": "hub",
+      "address": "123 Healthcare Ave, Medical District, NY 10001",
+      "coordinates": {
+        "lat": 44,
+        "lng": 77
+      },
+      "inventory": {
+        "diesel": 1000,
+        "petrol": 1000
+      }
     }
   ],
   "products": [
@@ -282,7 +296,7 @@
       "deliveryDate": "2026-02-27",
       "assignedDriverId": "driver-7499b3d8-21db-4f27-8eb9-4be8d63e8464",
       "assignedVehicleId": "vehicle-1772023056787",
-      "status": "completed"
+      "status": "assigned"
     }
   ],
   "allocations": [

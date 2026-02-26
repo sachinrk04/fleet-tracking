@@ -10,7 +10,9 @@ import { Toaster } from "./components/ui/toaster";
 function App() {
   const navigate = useNavigate();
   const [isAdmin, setIsAdmin] = useState(() => {
-    return localStorage.getItem("isAdmin") === "true";
+    return localStorage.getItem("isAdmin")
+      ? localStorage.getItem("isAdmin") === "true"
+      : true;
   });
 
   const toggleRole = () => {
