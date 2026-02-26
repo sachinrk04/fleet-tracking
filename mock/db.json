@@ -1,0 +1,326 @@
+{
+  "hubs": [
+    {
+      "id": "hub-1",
+      "name": "Downtown Distribution Hub",
+      "type": "hub",
+      "address": "123 Main St, City",
+      "coordinates": {
+        "lat": 40.7128,
+        "lng": -74.006
+      },
+      "inventory": {
+        "diesel": 14980,
+        "petrol": 12000
+      }
+    },
+    {
+      "id": "terminal-2",
+      "name": "Westside Terminal",
+      "type": "terminal",
+      "address": "45 West Ave, City",
+      "coordinates": {
+        "lat": 40.7158,
+        "lng": -74.015
+      },
+      "inventory": {
+        "diesel": 8000,
+        "petrol": 6000
+      }
+    },
+    {
+      "id": "terminal-3",
+      "name": "North Terminal",
+      "type": "terminal",
+      "address": "88 North Rd, City",
+      "coordinates": {
+        "lat": 40.722,
+        "lng": -74
+      },
+      "inventory": {
+        "diesel": 5000,
+        "petrol": 3000
+      }
+    },
+    {
+      "id": "hub-4",
+      "name": "Uptown Hub",
+      "type": "hub",
+      "address": "200 Uptown Blvd, City",
+      "coordinates": {
+        "lat": 40.73,
+        "lng": -73.995
+      },
+      "inventory": {
+        "diesel": 12000,
+        "petrol": 9000
+      }
+    },
+    {
+      "id": "terminal-5",
+      "name": "Harbour Terminal",
+      "type": "terminal",
+      "address": "1 Harbour St, City",
+      "coordinates": {
+        "lat": 40.7,
+        "lng": -74.01
+      },
+      "inventory": {
+        "diesel": 2000,
+        "petrol": 2500
+      }
+    },
+    {
+      "id": "hub-107afcc8-18b9-4ffd-9196-0f81ab118173",
+      "name": "asdas",
+      "type": "hub",
+      "address": "147 Catalyst Ave",
+      "coordinates": {
+        "lat": 23,
+        "lng": 45
+      },
+      "inventory": {
+        "diesel": 0,
+        "petrol": 0
+      }
+    },
+    {
+      "id": "hub-0c900f82-de43-449e-aaae-95fe545f6c12",
+      "name": "asdasdas",
+      "type": "hub",
+      "address": "147 Catalyst Ave",
+      "coordinates": {
+        "lat": 39,
+        "lng": 50
+      },
+      "inventory": {
+        "diesel": 0,
+        "petrol": 0
+      }
+    },
+    {
+      "id": "hub-1c463df0-f54b-4b4c-bf7c-db061d38ac4a",
+      "name": "Bangalure",
+      "type": "terminal",
+      "address": "test",
+      "coordinates": {
+        "lat": 12.9629,
+        "lng": 77.5775
+      },
+      "inventory": {
+        "diesel": 100,
+        "petrol": 0
+      }
+    }
+  ],
+  "products": [
+    {
+      "id": "diesel",
+      "name": "Diesel"
+    },
+    {
+      "id": "petrol",
+      "name": "Petrol"
+    },
+    {
+      "id": "asdas",
+      "name": "asdas"
+    }
+  ],
+  "drivers": [
+    {
+      "id": "driver-1",
+      "name": "John Smith",
+      "license": "DL-123456",
+      "phone": "+1-555-0100"
+    },
+    {
+      "id": "driver-2",
+      "name": "Maria Gomez",
+      "license": "DL-654321",
+      "phone": "+1-555-0101"
+    },
+    {
+      "id": "driver-3",
+      "name": "Ali Khan",
+      "license": "DL-222333",
+      "phone": "+1-555-0102"
+    },
+    {
+      "id": "driver-4",
+      "name": "Chen Li",
+      "license": "DL-444555",
+      "phone": "+1-555-0103"
+    },
+    {
+      "id": "driver-5",
+      "name": "Ava Brown",
+      "license": "DL-777888",
+      "phone": "+1-555-0104"
+    },
+    {
+      "id": "driver-3ddd9a86-d6a0-4095-b1e9-75b9e81a4a80",
+      "name": "ABC",
+      "license": "DL-182u42ans",
+      "phone": "9599999999"
+    },
+    {
+      "id": "driver-7499b3d8-21db-4f27-8eb9-4be8d63e8464",
+      "name": "New Driver",
+      "license": "BG-asjdk",
+      "phone": "9599999999"
+    }
+  ],
+  "vehicles": [
+    {
+      "id": "vehicle-1",
+      "registration": "TRK-103",
+      "capacity": 10000,
+      "type": "Tanker",
+      "currentLocation": {
+        "lat": 41.72248386215731,
+        "lng": -74.99892687899836
+      },
+      "status": "enroute"
+    },
+    {
+      "id": "vehicle-3",
+      "registration": "TRK-103",
+      "capacity": 10000,
+      "type": "Tanker",
+      "currentLocation": {
+        "lat": 40.725084680576785,
+        "lng": -73.98774299844536
+      },
+      "status": "enroute"
+    },
+    {
+      "id": "vehicle-4",
+      "registration": "TRK-104",
+      "capacity": 5000,
+      "type": "Truck",
+      "currentLocation": {
+        "lat": 40.7248590889731,
+        "lng": -73.98667426719338
+      },
+      "status": "maintenance"
+    },
+    {
+      "id": "vehicle-5",
+      "registration": "TRK-105",
+      "capacity": 7000,
+      "type": "Tanker",
+      "currentLocation": {
+        "lat": 40.705,
+        "lng": -74.012
+      },
+      "status": "idle"
+    },
+    {
+      "id": "vehicle-1772023056787",
+      "registration": "TRK-109",
+      "capacity": 2000,
+      "type": "Tanker",
+      "status": "maintenance"
+    },
+    {
+      "id": "vehicle-1772025539065",
+      "registration": "TRK-105",
+      "capacity": 7000,
+      "type": "Tanker",
+      "currentLocation": {
+        "lat": 12.9629,
+        "lng": 77.5775
+      },
+      "status": "enroute"
+    },
+    {
+      "id": "vehicle-ce659a82-6875-4736-ad77-028bd7b87346",
+      "registration": "TREF-987",
+      "capacity": 2000,
+      "type": "Test",
+      "status": "enroute"
+    },
+    {
+      "id": "vehicle-1433b95e-5c9a-471e-b2a3-8b4ad2dc2154",
+      "registration": "TRH-uu88",
+      "capacity": 889,
+      "type": "dskfjskfsfs",
+      "currentLocation": {
+        "lat": 12.960061598359893,
+        "lng": 77.5789484951993
+      },
+      "status": "maintenance"
+    }
+  ],
+  "orders": [
+    {
+      "id": "order-8da1104a-847a-4e80-9996-2c086b663a2c",
+      "destinationId": "hub-1",
+      "productId": "diesel",
+      "quantity": 5,
+      "deliveryDate": "2026-03-06",
+      "assignedDriverId": "driver-2",
+      "assignedVehicleId": "vehicle-1772023056787",
+      "status": "completed"
+    },
+    {
+      "id": "order-7535b5f4-b6f1-4a4e-a6db-a65086d19db0",
+      "destinationId": "hub-1",
+      "productId": "diesel",
+      "quantity": 5,
+      "deliveryDate": "2026-02-26",
+      "assignedDriverId": "driver-2",
+      "assignedVehicleId": "vehicle-5",
+      "status": "completed"
+    },
+    {
+      "id": "order-1ab3ef13-3f7d-4a6f-988d-1af3feb04c7b",
+      "destinationId": "hub-1c463df0-f54b-4b4c-bf7c-db061d38ac4a",
+      "productId": "petrol",
+      "quantity": 1000,
+      "deliveryDate": "2026-02-27",
+      "assignedDriverId": "driver-7499b3d8-21db-4f27-8eb9-4be8d63e8464",
+      "assignedVehicleId": "vehicle-1772023056787",
+      "status": "completed"
+    }
+  ],
+  "allocations": [
+    {
+      "id": "alloc-1",
+      "vehicleId": "vehicle-1",
+      "driverId": "driver-1",
+      "date": "2025-11-24"
+    },
+    {
+      "id": "alloc-1772009643899",
+      "vehicleId": "vehicle-1",
+      "driverId": "driver-1",
+      "date": "2026-02-26"
+    },
+    {
+      "id": "alloc-5cda51a0-30ac-4a65-8ba8-d7e63b8f2265",
+      "vehicleId": "vehicle-4",
+      "driverId": "driver-2",
+      "date": "2026-03-07"
+    },
+    {
+      "id": "alloc-f591c446-1993-488b-824f-3208a751c296",
+      "vehicleId": "vehicle-3",
+      "driverId": "driver-2",
+      "date": "2026-02-05"
+    },
+    {
+      "id": "alloc-6ff086af-7043-4c3d-bff4-ad21767e93d8",
+      "vehicleId": "vehicle-1772023056787",
+      "driverId": "driver-4",
+      "date": "2026-03-07"
+    },
+    {
+      "id": "alloc-6165a727-bd1e-4147-81b2-88c5e36d4403",
+      "vehicleId": "vehicle-1433b95e-5c9a-471e-b2a3-8b4ad2dc2154",
+      "driverId": "driver-7499b3d8-21db-4f27-8eb9-4be8d63e8464",
+      "date": "2026-02-28"
+    }
+  ]
+}
